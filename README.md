@@ -17,12 +17,13 @@ The entire project is in Python using Jupyter Notebooks. There are three primary
 
 
 The following is a guide to running the project files locally:
+
 1. Fork the repository [repo link](https://github.com/jsmither10/client_data_analysis.git)  
 2. Clone the repository to your Github account
 3. Access the repository from your command line or preferred CMD software
 4. Install a virtual environment. The command in Gitbash is *python -m venv venv*
 5. Activate the virtual environment. The command in Gitbash is *source venv/scripts/activate*
-3. Install the *requirements.txt* file to install necessary packages bu running *pip install requirements.txt*
+3. Install the *requirements.txt* file to install necessary packages bu running *pip install requirements.txt* Please note: This requirements file was created on a Windows computer and uses Windows Python version pywin32==306
 4. Create a new file, *creds.py*, and add it into the main project folder "Client_Data_Analysis"
 5. Click on [this link](https://rapidapi.com/malaaddincelik/api/fitness-calculator/) and [this link](https://rapidapi.com/aptitudeapps/api/us-states) and subscribe to the free tier for both to authenticate your API key. Your API key should be the same for both APIs. 
 6. Copy your API key from the rapid API website
@@ -51,16 +52,9 @@ API's Utilized:
 ---
 
 #### Features:
-
-
-Create a new creds.py file locally to store the API key, where API KEY = 'INSERT KEY HERE'
-https://rapidapi.com/malaaddincelik/api/fitness-calculator/
-
-https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf
-
-
-https://rapidapi.com/aptitudeapps/api/us-states
-
-https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pcpi1
-
+1. Loading Data - Reading in a JSON file, Connecting to two APIs to create one data set
+2. Cleaning Data - Merged data together from two different APIs
+3. Visualize Data - Made 3 different visualizations on the data 
+4. Best Practices - Included instructions on virtual environment setup, built a custom data dictionary 
+5. Interpretation - Included a final anaylsis write up in *data_vizualization.ipynb*
 
