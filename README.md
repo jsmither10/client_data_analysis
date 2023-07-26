@@ -4,6 +4,8 @@
 
 This analysis is a mock data analytics and enrichment project. A new company, BourbonBaked, ran a small beta launch of their new product offering and collected information from each beta participant. The company is interested in learning more about these beta users in order to create successful marketing campaigns for the future launches throughout the United States. This project explores the data enrichment and analysis of user data to determine those insights. 
 
+This project utilizes a random gernator API to gather fake client data. If you run this project locally your data will differ from that included in this project. Therefore, the analysis included in *data_vizualization* is only applicable to my current version of the *enriched_customer_file.csv*. If you run data_analysis.ipynb locally it will overwrite the *enriched_customer_file.csv* and the data you read in for *data_visualization* will not be accurate. 
+
 ---
 
 #### Running the Program:
