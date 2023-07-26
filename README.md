@@ -27,7 +27,10 @@ The following is a guide to running the project files locally:
 3. Access the repository from your command line or preferred CMD software
 4. Install a virtual environment. The command in Gitbash is *python -m venv venv*
 5. Activate the virtual environment. The command in Gitbash is *source venv/scripts/activate*
-3. Install the *requirements.txt* file to install necessary packages by running *pip install requirements.txt* **Please note:** This requirements file was created on a Windows computer and uses Windows Python version pywin32==306
+3. Install the *requirements.txt* file to install necessary packages by running *pip install requirements.txt* 
+
+**Please note:** This requirements file was created on a Windows computer and uses Windows Python version pywin32==306
+
 4. Create a new file, *creds.py*, and add it into the main project folder "Client_Data_Analysis"
 5. Click on [this link](https://rapidapi.com/malaaddincelik/api/fitness-calculator/) and [this link](https://rapidapi.com/aptitudeapps/api/us-states) and subscribe to the free tier for both to authenticate your API key. Your API key should be the same for both APIs. 
 6. Copy your API key from the rapid API website
