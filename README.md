@@ -1,6 +1,6 @@
 # Client Data Analysis
 
-#### Overview:
+### Overview:
 
 This analysis is a mock data analytics and enrichment project. A new company, BourbonBaked, ran a small beta launch of their new product offering and collected information from each beta participant. The company is interested in learning more about these beta users in order to create successful marketing campaigns for the future launches throughout the United States. This project explores the data enrichment and analysis of user data to determine those insights. 
 
@@ -8,7 +8,7 @@ This project utilizes a random gernator API to gather fake client data. If you r
 
 ---
 
-#### Running the Program:
+### Primary Files:
 
 The entire project is in Python using Jupyter Notebooks. There are three primary files involved: 
 
@@ -16,7 +16,9 @@ The entire project is in Python using Jupyter Notebooks. There are three primary
 2. **data_vizualization**: This contains the charts exploring the final enriched data set. Please note: The final charts and graphs are based on the original working data set. Since the API generates new user information each time, the analysis included here only pertains to the original data set included in this repo and may not be relevant for a new subset of users generated from the API. 
 3. **data_dictionary**: This is the dictionary for the final file that is the result of the data_analysis process. The raw file is *enriched_customer_file.csv* and this is the data dictionary to correspond to that file.
 
+---
 
+### Running the Program:
 
 The following is a guide to running the project files locally:
 
@@ -25,7 +27,7 @@ The following is a guide to running the project files locally:
 3. Access the repository from your command line or preferred CMD software
 4. Install a virtual environment. The command in Gitbash is *python -m venv venv*
 5. Activate the virtual environment. The command in Gitbash is *source venv/scripts/activate*
-3. Install the *requirements.txt* file to install necessary packages bu running *pip install requirements.txt* Please note: This requirements file was created on a Windows computer and uses Windows Python version pywin32==306
+3. Install the *requirements.txt* file to install necessary packages by running *pip install requirements.txt* **Please note:** This requirements file was created on a Windows computer and uses Windows Python version pywin32==306
 4. Create a new file, *creds.py*, and add it into the main project folder "Client_Data_Analysis"
 5. Click on [this link](https://rapidapi.com/malaaddincelik/api/fitness-calculator/) and [this link](https://rapidapi.com/aptitudeapps/api/us-states) and subscribe to the free tier for both to authenticate your API key. Your API key should be the same for both APIs. 
 6. Copy your API key from the rapid API website
@@ -37,7 +39,7 @@ api_key = "INSERT YOUR API KEY HERE"
 
 ---
 
-#### Sources:
+### Sources:
 
 Enrichment information came from the following sources:
 
@@ -53,7 +55,7 @@ API's Utilized:
 
 ---
 
-#### Features:
+### Features:
 1. Loading Data - Reading in a JSON file, Connecting to two APIs to create one data set
 2. Cleaning Data - Merged data together from two different APIs
 3. Visualize Data - Made 3 different visualizations on the data 
