@@ -4,7 +4,7 @@
 
 This analysis is a mock data analytics and enrichment project. A new company, BourbonBaked, ran a small beta launch of their new product offering and collected information from each beta participant. The company is interested in learning more about these beta users in order to create successful marketing campaigns for the future launches throughout the United States. This project explores the data enrichment and analysis of user data to determine those insights. 
 
-This project utilizes a random gernator API to gather fake client data. If you run this project locally your data will differ from that included in this project. Therefore, the analysis included in *data_vizualization* is only applicable to the current posted version of the *enriched_customer_file.csv*. If you run data_analysis.ipynb locally it will overwrite the *enriched_customer_file.csv* and the data you read in for *data_visualization* may not be accurate to the analysis provided. 
+This project utilizes a random generator API to gather fake client data. If you run this project locally your data will differ from that included in this project. Therefore, the analysis included in *data_vizualization* is only applicable to the current posted version of the *enriched_customer_file.csv*. If you run data_analysis.ipynb locally it will overwrite the *enriched_customer_file.csv* and the data you read in for *data_visualization* may not be accurate to the analysis provided. 
 
 ---
 
@@ -29,10 +29,14 @@ The following is a guide to running the project files locally:
 5. Activate the virtual environment. The command in Gitbash is *source venv/scripts/activate*
 3. Install the *requirements.txt* file to install necessary packages by running *pip install requirements.txt* 
 
-**Please note:** This requirements file was created on a Windows computer and uses Windows Python version pywin32==306
+**Please note:** This requirements file was created on a Windows computer and uses Windows Python version pywin32==306. This project was done in a Windows environment and uses pathing that works in a Windows environment. In its current state, it can not be guarenteed to work in a Mac or Linux based system.
 
 4. Create a new file, *creds.py*, and add it into the main project folder "Client_Data_Analysis"
-5. Click on [this link](https://rapidapi.com/malaaddincelik/api/fitness-calculator/) and [this link](https://rapidapi.com/aptitudeapps/api/us-states) and subscribe to the free tier for both to authenticate your API key. Your API key should be the same for both APIs. 
+5. This project utilizes the following two APIS
+- [BMI API Calculator](https://rapidapi.com/malaaddincelik/api/fitness-calculator/) 
+- [US State Info API](https://rapidapi.com/aptitudeapps/api/us-states) 
+- You will need to create a free account on rapidapi.com in order to run this project. [Link to rapid API](https://rapidapi.com/auth/sign-up?referral=/aptitudeapps/api/us-states/pricing)
+- Once you have created an account, click the API link above for US State Info and subscribe to the free tier by clicking on the "Pricing" link on the page. You can subscribe to the "Basic" plan for $0/month. Once for both to authenticate your API key. Your API key should be the same for both APIs. 
 6. Copy your API key from the rapid API website
 7. Open the creds.py file you created and add this block of code, adding in your API key into the placeholder space: 
 ```
